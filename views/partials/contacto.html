@@ -1,0 +1,61 @@
+<div class="sectionCont">
+  <div class="colList">
+    <div class="col colL">
+      <h2><strong>Escribinos &raquo;</strong> si quer&eacute;s recibir informaci&oacute;n sobre nuevos eventos</h2>
+      <div class="contact">
+        <div class="success">
+          <p>tu mensaje fue  enviado correctamente</p>
+        </div>
+        <div class="base">
+          <div class="loading">
+            <p>Esperá, tu mensaje se está enviando...</p>
+          </div>
+          <form name="form" novalidate>
+            <div class="sep">
+              <div class="sep-cont">
+                <label for="nombre">Nombre</label>
+                <input type="text" ng-model="contact.name" name="name" required />
+              </div>
+              <span ng-show="form.name.$dirty && form.name.$error.required">Ingresá tu nombre.</span>
+            </div>
+            <div class="sep">
+              <div class="sep-cont">
+                <label for="mail">Mail</label>
+                <input type="email" ng-model="contact.email" name="email" required />
+              </div>
+              <span ng-show="form.email.$dirty && form.email.$invalid">Ingresá tu email.</span>
+            </div>
+            <div class="sep">
+              <div class="sep-cont">
+                <label for="asunto">Asunto</label>
+                <input type="text" ng-model="contact.topic" name="topic" required />
+              </div>
+              <span ng-show="form.topic.$dirty && form.topic.$error.required">Ingresá tu asunto.</span>
+            </div>
+            <div class="sep">
+              <div class="sep-cont">
+                <label for="comentario">Comentario</label>
+                <textarea ng-model="contact.comment" name="comment" required></textarea>
+              </div>
+              <span ng-show="form.comment.$dirty && form.comment.$error.required">Ingresá tu comentario.</span>
+            </div>
+            <div class="sep btn">
+              <button ng-click="sendEmail(contact)" ng-disabled="form.$invalid">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col colR">
+      <dl>
+        <dt>Direcci&oacute;n</dt>
+        <dd>Humberto Primo 2758</dd>
+        <dd>Buenos Aires, Argentina</dd>
+        <dt>Mail</dt>
+        <dd>contacto@teatromandril.com</dd>
+        <dt>Tel&eacute;fono</dt>
+        <dd>+54 11 4308-6253</dd>
+      </dl>
+    </div>
+  </div>
+</div>

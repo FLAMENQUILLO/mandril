@@ -1,0 +1,36 @@
+.error404{
+  background: #ed475b url(../img/Mandriles/fd_mandriles.gif) 0 0 repeat;
+  height: 100%;
+  padding: 110px 0 0;
+  @include box-sizing(border-box);
+
+  .error404-cont {
+    width: 660px;
+    height: 215px;
+    padding: 0 0 0 220px;
+    margin: 0 auto;
+    background: url(../img/error404.png) 0 0 no-repeat;
+    @include box-sizing(border-box);
+
+    h2 {
+      font: bold italic 32px/32px Georgia, Helvetica, Arial;
+      color: #fff;
+      padding: 70px 0 20px;
+    }
+
+    p {
+      font: 100 12px/16px Georgia, Helvetica, Arial;
+      color: #fff;
+
+      a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

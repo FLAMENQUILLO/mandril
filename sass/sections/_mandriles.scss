@@ -1,0 +1,133 @@
+/*Mandriles*/
+.sectionTwo{
+  background: #ed475b url(../img/Mandriles/fd_mandriles.gif) 0 0 repeat;
+  position: relative;
+
+  .down {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: url(../img/Mandriles/fd_down.gif) 0 0 repeat-x;
+  }
+
+  .sectionCont {
+    padding: 140px 0 140px 118px;
+    width: 822px;
+
+    .colList {
+      @include clearfix;
+
+      .col {
+        float: left;
+        padding: 0 0 0 20px;
+
+        &.colR {
+          width: 220px;
+
+          header {
+            width: 220px;
+            height: 35px;
+            background: url(../img/Mandriles/fd_title.png) 0 0 no-repeat;
+            text-align: center;
+            padding: 14px 0 0;
+
+            h2 {
+              font: normal 17px/17px Georgia, Helvetica, Arial;
+              color: #ee4a5d;
+              text-transform: uppercase;
+            }
+          }
+
+          ul {
+            padding: 24px 0 0;
+            @include clearfix;
+
+            li {
+              float: left;
+              width: 65px;
+              padding: 0 10px 32px 0;
+
+              &.li3,
+              &.li6,
+              &.li9,
+              &.li12,
+              &.li15 {
+                padding-right: 0;
+              }
+
+              .contImg {
+                width: 65px;
+                height: 71px;
+                position: relative;
+                background: url(../img/Mandriles/fd_ballon.png) 0 0 no-repeat;
+                text-align: center;
+
+                img {
+                  border-radius: 50%;
+                  margin-top: 3px;
+                  width: 59px;
+                  height: 60px;
+                  @include box-sizing(border-box);
+                }
+              }
+
+              h3 {
+                font: italic 14px/14px Georgia, Helvetica, Arial;
+                color: #faee89;
+                padding: 7px 0 0;
+              }
+            }
+          }
+        }
+
+        &.colL {
+          width: 562px;
+
+          .imgCont {
+            width: 548px;
+            height: 317px;
+            background: #fff;
+            padding: 7px;
+            position: relative;
+            @include box-shadow(3px 3px 1px #c34251);
+
+            .cvTop {
+              width: 39px;
+              height: 39px;
+              background: url(../img/Mandriles/cv_top.png) 0 0 no-repeat;
+              position: absolute;
+              top: 7px;
+              left: 7px;
+            }
+
+            .cvBottom {
+              width: 39px;
+              height: 39px;
+              background: url(../img/Mandriles/cv_bottom.png) 0 0 no-repeat;
+              position: absolute;
+              bottom: 7px;
+              right: 7px;
+            }
+          }
+
+          article {
+            padding: 31px 0 0;
+
+            h2 {
+              font: italic 22px/22px Georgia, Helvetica, Arial;
+              color: #fff;
+              padding: 0 0 16px;
+            }
+
+            p {
+              font: italic 14px/18px Georgia, Helvetica, Arial;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

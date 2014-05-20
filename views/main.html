@@ -1,0 +1,59 @@
+<header class="hd">
+  <!--<a href="" ng-click="goToTop()" title="Subir" class="subir"><span>Subir</span></a>-->
+  <nav>
+    <ul class="btnGral">
+      <li>
+        <a href="javascript:;" title="Mandriles" class="btn1"><span>Mandriles</span></a>
+      </li>
+      <li>
+        <a href="javascript:;" title="Eventos" class="btn2"><span>Eventos</span></a>
+      </li>
+      <li>
+        <a href="javascript:;" title="Talleres" class="btn3"><span>Talleres</span></a>
+      </li>
+      <li>
+        <a href="javascript:;" title="Galer&iacute;a" class="btn4"><span>Galer&iacute;a</span></a>
+      </li>
+      <li>
+        <a href="javascript:;" title="Contacto" class="btn5"><span>Contacto</span></a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<!-- Home -->
+<section class="sectionOne" ng-include src="'views/partials/home.html'"></section>
+<!-- Mandriles -->
+<section class="sectionTwo" ng-include src="'views/partials/mandriles.html'"></section>
+<!-- Eventos -->
+<section class="sectionThree" ng-include src="'views/partials/eventos.html'"></section>
+<!-- Talleres -->
+<section class="sectionFour" ng-include src="'views/partials/talleres.html'"></section>
+<!-- Galeria -->
+<section class="sectionFive" ng-include src="'views/partials/galeria.html'"></section>
+<!-- Contacto -->
+<section class="sectionSix" ng-include src="'views/partials/contacto.html'"></section>
+<!-- Footer -->
+<footer>
+  <div class="colList">
+    <div class="col colL">
+      <div class="ftL">
+        <h2>&Uacute;ltimos Tweets!</h2>
+      </div>
+      <div class="ftR">
+        <div class="cvTwitter"></div>
+        <p ng-repeat="twitt in twitter" ng-if="$index < 2">{{twitt.text}}</p>
+      </div>
+    </div>
+    <div class="col colR">
+      <h2>Seguinos!</h2>
+      <ul>
+        <li class="enl1"><a href="http://www.facebook.com/teatro.mandril" title="Facebook" target="_blank"><span>Facebook</span></a></li>
+        <li class="enl2"><a href="http://twitter.com/teatromandriltt" title="Twitter" target="_blank"><span>Twitter</span></a></li>
+        <li class="enl3"><a href="http://www.youtube.com/user/ccteatromandril" title="Youtube" target="_blank"><span>Youtube</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="dowm">
+    <small>&copy; 2014 Teatro Mandril</small>
+  </div>
+</footer>

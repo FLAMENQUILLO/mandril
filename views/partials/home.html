@@ -1,0 +1,64 @@
+<div class="down"></div>
+<div class="sectionCont">
+  <div class="colList">
+    <div class="col colL">
+      <!-- Eventos -->
+      <div class="contImg" ng-repeat="event in events.event" ng-if="event.highlight == true ">
+        <div class="proximo"><span>Proximo Evento</span></div>
+        <a href="#/event/{{event._id}}" title="{{event.title}}">
+          <img ng-src="{{event.img}}" alt="{{event.title}}" />
+        </a>
+        <a href="#/event/{{event._id}}" title="{{event.title}}" class="eventoTitle">
+          <h2>{{event.title}}</h2>
+        </a>
+      </div>
+      <!-- Talleres 
+      <div class="talleres">
+        <div class="talleresTitle">
+          <h2>Talleres &raquo;</h2>
+          <ul>
+            <li><a href="" ng-click="showDate('lunes')" ng-class="{Act: active == 'lunes'}" title="Lu">Lu</a></li>
+            <li><a href="" ng-click="showDate('martes')" ng-class="{Act: active == 'martes'}" title="Ma">Ma</a></li>
+            <li><a href="" ng-click="showDate('miercoles')" ng-class="{Act: active == 'miercoles'}" title="Mie">Mie</a></li>
+            <li><a href="" ng-click="showDate('jueves')" ng-class="{Act: active == 'jueves'}" title="Jue">Jue</a></li>
+            <li><a href="" ng-click="showDate('viernes')" ng-class="{Act: active == 'viernes'}" title="Vie">Vie</a></li>
+            <li><a href="" ng-click="showDate('sabado')" ng-class="{Act: active == 'sabado'}" title="Sab">Sab</a></li>
+          </ul>
+        </div>
+        <div class="talleresCont">
+          <div class="talleresContData">
+            <a href="javascript:;" title="Anterior" class="btn btnL"><span>Anterior</span></a>
+            <a href="javascript:;" title="Siguiente" class="btn btnR"><span>Siguiente</span></a>
+            <div class="">
+              <div class="talleresContDataTop" ng-repeat="taller in dateSelected">
+                <h3>{{taller.title}}</h3>
+                <span>{{taller.time}} | Prof. {{taller.teacher}}</span>
+                <p>{{taller.description}}</p>
+              </div>
+            </div>
+            <div class="talleresContDataBottom">
+              <ul>
+                <li ng-repeat="taller in dateSelected"><a href="" title="{{$index + 1}}">{{$index + 1}}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    </div>
+    <div class="col colR">
+      <!-- Bar -->
+      <div class="bar">
+        <div class="barTitle">
+          <span>{{bar.title}}</span>
+        </div>
+        <div class="barCont">
+          <div class="imgCont">
+            <img ng-src="{{bar.img}}" alt="Teatro Mandril | Bar" />
+          </div>
+          <p>{{bar.description}}</p>
+          <span>{{bar.down}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

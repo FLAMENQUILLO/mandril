@@ -1,0 +1,38 @@
+<div class="down"></div>
+<div class="sectionCont">
+  <div class="colList clearfix">
+    <div class="col colL">
+      <div class="galeria">
+        <button type="button" class="prev" ng-click="galeryPrev()"></button>
+        <button type="button" class="next" ng-click="galeryNext()"></button>
+        <div class="galeriaImg galery-slider">
+          <div class="" ng-repeat="image in galeries[galeryNumber].images">
+            <img ng-src="{{image.img}}" title="Galeria 1" />
+          </div>
+        </div>
+        <div class="galeriaTxt">
+          <span>{{galeries[galeryNumber].date}}</span>
+          <h2>{{galeries[galeryNumber].title}}</h2>
+          <p>{{galeries[galeryNumber].description}}</p>
+        </div>
+      </div>
+      <div class="galeriaSlider">
+        <h3>... otras galerias</h3>
+        <ul class="clearfix">
+          <li ng-repeat="galery in galeries">
+            <a href="" ng-click="changeGalery($index)" title="{{galery.title}}" class="title">{{galery.title}}</a>
+            <a href="" ng-click="changeGalery($index)" title="{{galery.title}}" class="cont"><img ng-src="{{galery.mainThumbnail}}" alt="{{galery.title}}" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col colR">
+      <ul class="clearfix">
+        <li ng-repeat="image in galeries[galeryNumber].images">
+          <a href="" ng-click="selectImage($index)" title="{{image.title}}"><img ng-src="{{image.thumbnail}}" alt="{{image.title}}" /></a>
+        </li>
+      </ul>
+      <p style="display: none"><a href="#" title="Anterior">&laquo;</a> <strong>12</strong> de <strong>32</strong> <a href="#" title="Siguiente">&raquo;</a></p>
+    </div>
+  </div>
+</div>

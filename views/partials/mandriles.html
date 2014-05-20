@@ -1,0 +1,27 @@
+<div class="down"></div>
+<div class="sectionCont">
+  <div class="colList">
+    <div class="col colL">
+      <div class="imgCont">
+        <div class="cvTop"></div>
+        <div class="cvBottom"></div>
+        <img ng-src="{{team.img}}" alt="{{team.title}}" />
+      </div>
+      <article>
+        <h2>{{team.title}}</h2>
+        <p>{{team.description}}</p>
+      </article>
+    </div>
+    <div class="col colR">
+      <header><h2>Equipo Mandril</h2></header>
+      <ul>
+        <li ng-repeat="team in team.team" class="li{{$index+1}}">
+          <div class="contImg">
+            <img ng-src="{{team.img}}" />
+          </div>
+          <h3>{{team.name}}</h3>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

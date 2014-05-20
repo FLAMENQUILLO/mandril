@@ -1,0 +1,29 @@
+//Reset
+@import "compass/reset";
+@import "compass/css3";
+
+//clear
+@mixin clearfix {
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+
+//Layout
+@import "fonts";
+@import "slick";
+@import "layout";
+
+//page
+@import "404";
+@import "events";
+
+//Sections
+@import "sections/home";
+@import "sections/mandriles";
+@import "sections/eventos";
+@import "sections/talleres";
+@import "sections/galeria";
+@import "sections/contacto";

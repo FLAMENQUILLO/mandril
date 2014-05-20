@@ -1,0 +1,170 @@
+/*Contacto*/
+.sectionSix{
+  background:#9a9a9a url(../img/Contacto/fd_contacto.gif) 0 0 repeat;
+
+  .sectionCont {
+    padding: 140px 0 140px 118px;
+    width: 822px;
+
+    .colList {
+      @include clearfix;
+
+      .col {
+        float: left;
+        padding: 0 0 0 20px;
+
+        &.colR {
+          width: 220px;
+          background: url(../img/Contacto/fd_buzon.png) 20px 43px no-repeat;
+          padding: 112px 0 0;
+
+          dl {
+            padding: 50px 0 0 20px;
+          }
+
+          dt {
+            font: normal 36px/36px AkzidenzGroteskBQCondensedBd;
+            text-transform: uppercase;
+            color: #faee89;
+            padding: 20px 0 2px;
+          }
+
+          dd {
+            font: normal 12px/15px Georgia, Helvetica, Arial;
+            color: #fff;
+          }
+        }
+
+        &.colL {
+          width: 562px;
+
+          h2 {
+            padding: 0 0 29px 10px;
+            font: italic 16px/16px Georgia, Helvetica, Arial;
+            color: #fff;
+
+            strong {
+              font-size: 22px;
+              color: #fff286;
+              font-weight: normal;
+            }
+          }
+
+          .contact {
+            width: 549px;
+            height: 465px;
+            padding: 30px 0 0;
+            background: url(../img/Contacto/fd_form.png) 0 0 no-repeat;
+            margin: 0 0 0 10px;
+            @include box-shadow(3px 3px 1px #7d7d7d);
+
+            .base {
+              .loading {
+                display: none;
+                padding: 0 0 10px 180px;
+
+                p {
+                  font: bold 12px/12px Georgia, Helvetica, Arial;
+                  color: #33aeed;
+                  padding: 10px 0 10px 30px;
+                  background: url(../img/Contacto/loader.gif) 0 5px no-repeat;
+                }
+              }
+
+              .sep {
+                padding: 0 0 20px;
+
+                .sep-cont {
+                  @include clearfix;
+
+                  label {
+                    float: left;
+                    text-align: right;
+                    width: 163px;
+                    padding: 6px 17px 0 0;
+                    font: normal 22px/22px AkzidenzGroteskBQCondensedBd;text-transform:uppercase;
+                    color: #828282;
+                  }
+
+                  input {
+                    float: left;
+                    width: 325px;
+                    border: 1px dotted #8ca0a6;
+                    height: 30px;
+                    padding: 0 0 0 10px;
+                    font: normal 15px/18px AkzidenzGroteskBQCondensedBd;
+                    color: #828282;
+
+                    &:focus {
+                      outline: 0 none;
+                    }
+                  }
+
+                  textarea {
+                    float: left;
+                    width: 315px;
+                    border: 1px dotted #8ca0a6;
+                    height: 140px;
+                    padding: 10px;
+                    font: normal 15px/18px AkzidenzGroteskBQCondensedBd;
+                    color: #828282;
+                    resize: none;
+
+                    &:focus {
+                      outline: 0 none;
+                    }
+                  }
+                }
+
+                span {
+                  display: block;
+                  padding: 5px 0 0 180px;
+                  font: normal 13px/13px AkzidenzGroteskBQCondensedBd;
+                  color: #e84158;
+                }
+              }
+
+              .btn {
+                padding: 20px 0 0 379px;
+
+                button {
+                  width: 138px;
+                  height: 39px;
+                  padding: 0;
+                  background: url(../img/Contacto/fd_btn.png) 0 0 no-repeat;
+                  font: bold 20px/20px Georgia, Helvetica, Arial;
+                  color: #fff494;
+                  font-style: italic;
+                  border: 0 none;
+                  cursor: pointer;
+
+                  &:hover {
+                    background-position: 0 -39px;
+                  }
+
+                  &:focus {
+                    outline: 0 none;
+                  }
+                }
+              }
+            }
+
+            .success {
+              display: none;
+              background: url(../img/Contacto/sucess.png) 280px 0 no-repeat;
+              padding-left: 50px;
+              text-align: center;
+
+              p {
+                font: normal 22px/22px AkzidenzGroteskBQCondensedBd;
+                color: #3eb7f0;
+                text-transform: uppercase;
+                padding-top: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

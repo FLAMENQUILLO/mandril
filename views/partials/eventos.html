@@ -1,0 +1,38 @@
+<div class="down"></div>
+<div class="sectionCont">
+  <div class="colList clearfix">
+    <div class="col colL">
+      <h2><strong>Eventos &raquo;</strong> Destacado {{events.month}}</h2>
+      <div ng-repeat="event in events.event" ng-if="event.highlight == true ">
+        <div class="contImg">
+          <a href="#/event/{{event._id}}" title="{{event.title}}">
+            <img ng-src="{{event.img}}" alt="{{event.title}}" />
+          </a>
+        </div>
+        <div class="contTxt">
+          <a href="#/event/{{event._id}}" title="{{event.title}}" class="title">
+            <h3><strong>{{event.title}}</h3>
+          </a>
+          <div class="eventoCont">
+            <span>d&iacute;a &laquo; <strong>{{event.date}}</strong> |  hora &laquo; <strong>{{event.time}}</strong>  |  entrada &laquo;  <strong>{{event.cost}}</strong></span>
+            <p>{{event.description}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="eventosSlider">
+        <h3>... otros eventos de {{events.month}}</h3>
+        <ul class="clearfix">
+          <li class="contImg" ng-repeat="event in events.event" ng-if="event.highlight == false && $index <= eventsItem">
+            <a href="#/event/{{event._id}}" title="{{event.title}}" class="title">{{event.title}}</a>
+            <a href="#/event/{{event._id}}" title="{{event.title}}" class="cont"><img ng-src="{{event.thumbnail}}" alt="{{event.title}}" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="verTodos">
+        <a href="" ng-click="showAll()" ng-hide="hideShowAll" title="Ver Todos">Ver Todos</a>
+      </div>
+    </div>
+    <div class="col colR">
+    </div>
+  </div>
+</div>

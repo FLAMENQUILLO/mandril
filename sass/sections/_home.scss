@@ -1,0 +1,259 @@
+/*Home*/
+.sectionOne {
+  background: #d7f6ff url(../img/Home/fd_home.gif) 0 0 repeat;
+  position: relative;
+
+  .down {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background: url(../img/Home/fd_down.gif) 0 0 repeat-x;
+  }
+
+  .sectionCont {
+    padding: 40px 0 140px 118px;
+    width: 822px;
+
+    .colList{
+      @include clearfix;
+
+      .col {
+        float: left;
+        padding: 0 0 0 20px;
+
+        &.colR {
+          width: 220px;
+
+          .bar {
+            padding: 0;
+
+            .barTitle {
+              width: 220px;
+              height: 92px;
+              background: url(../img/Home/fd_bar.gif) 0 0 no-repeat;
+
+              span {
+                display: none;
+              }
+            }
+
+            .barCont {
+              background: #4bc1f8;
+              padding: 10px 10px 12px;
+
+              .imgCont {
+                width: 192px;
+                height: 142px;
+                background: #fff;
+                padding: 4px;
+              }
+
+              p {
+                font:normal 10px/15px Georgia, Helvetica, Arial;
+                font-style: italic;
+                color: #fff;
+                padding: 10px 0 17px;
+              }
+
+              span {
+                font: bold 14px/14px Georgia, Helvetica, Arial;
+                font-style: italic;
+                color: #fff;
+                display: block;
+              }
+            }
+          }
+        }
+
+        &.colL {
+          width: 562px;
+
+          .contImg {
+            width: 542px;
+            height: 300px;
+            background: #fff;
+            margin: 0 0 0 10px;
+            position: relative;
+            padding: 0 0 50px;
+
+            .proximo {
+              width: 134px;
+              height: 133px;
+              position: absolute;
+              top: -28px;
+              right: -23px;
+              background: url(../img/Home/fd_proximo.png) 0 0 no-repeat;
+
+              span {
+                display: none;
+              }
+            }
+
+            .eventoTitle {
+              width: 542px;
+              height: 32px;
+              padding: 29px 0 0 20px;
+              background: url(../img/Home/fd_eventoTitle.png) 0 0 no-repeat;
+              position: absolute;
+              left: -10px;
+              bottom: 0;
+
+              h2 {
+                font: bold 16px/16px Georgia, Helvetica, Arial;
+                font-style: italic;
+                color: #ecfafe;
+              }
+            }
+          }
+
+          .talleres {
+            padding: 21px 0 0;
+
+            .talleresTitle {
+              height: 26px;
+              padding: 7px 6px 8px 20px;
+              background: #34dcd6 url(../img/Home/fd_talleresTitle.gif) 0 0 repeat-x;
+              @include clearfix;
+
+              h2 {
+                font: bold 26px/26px AkzidenzGroteskBQCondensedBd;
+                text-transform: uppercase;
+                color: #fff;
+                float: left;
+                padding: 1px 0 0;
+              }
+
+              ul {
+                float: right;
+                @include clearfix;
+
+                li {
+                  float:left;
+                  width:29px;
+                  height:28px;
+                  padding:0 0 0 6px;
+
+                  a {
+                    width: 29px;
+                    height: 19px;
+                    padding: 9px 0 0;
+                    display: block;
+                    background: url(../img/Home/fd_dia.gif) 0 0 no-repeat;
+                    text-align: center;
+                    font: normal 10px/11px Georgia, Helvetica, Arial;
+                    color: #fff;
+                    text-transform: uppercase;
+
+                    &.Act {
+                      background-position: 0 -28px;
+                    }
+
+                    &:hover {
+                      background-position: 0 -28px;
+                      text-decoration: none;
+                    }
+                  }
+                }
+              }
+            }
+
+            .talleresCont {
+              background: url(../img/Home/fd_talleresCont.gif) 0 0 repeat;
+              padding: 10px 40px;
+
+              .talleresContData {
+                position: relative;
+                @include clearfix;
+
+                .btn {
+                  display: block;
+                  width: 42px;
+                  height: 62px;
+                  background: url(../img/Home/fd_talleresBtn.png) 0 0 no-repeat;
+                  position: absolute;
+                  top: 49px;
+
+                  span {
+                    display: none;
+                  }
+
+                  &.btnL {
+                    left: -20px;
+                    background-position: 0 0;
+
+                    &:hover {
+                      background-position: 0 -62px;
+                    }
+                  }
+
+                  &.btnR {
+                    right: -20px;
+                    background-position: 0 -124px;
+
+                    &:hover {
+                      background-position: 0 -186px;
+                    }
+                  }
+                }
+
+                .talleresContDataTop {
+                  background: #fff;
+                  padding: 18px 40px 15px;
+
+                  h3 {
+                    font: bold 26px/26px Georgia, Helvetica, Arial;
+                    color: #ee4a5d;
+                    font-style: italic;
+                  }
+
+                  span {
+                    display: block;
+                    color: #57c5f9;
+                    font: normal 22px/22px Georgia, Helvetica, Arial;
+                    padding: 7px 0 5px;
+                  }
+
+                  p {
+                    font: normal 11px/15px Georgia, Helvetica, Arial;
+                    color: #969696;
+                  }
+                }
+
+                .talleresContDataBottom {
+                  background: #ee4a5d;
+                  height: 22px;
+                  padding: 3px 20px 0;
+                  @include clearfix;
+
+                  ul {
+                    float: right;
+
+                    li {
+                      float: left;
+                      padding: 0 0 0 10px;
+
+                      a {
+                        font: normal 12px/12px Georgia, Helvetica, Arial;
+                        color: #fff;
+
+                        &.Act {
+                          font-weight: bold;
+                        }
+
+                        &:hover {
+                          text-decoration: none;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

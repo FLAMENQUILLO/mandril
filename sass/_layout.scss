@@ -1,0 +1,205 @@
+/*global*/
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/*Layout*/
+.layout {
+  position: relative;
+  height: 100%;
+}
+
+/*Header*/
+.hd {
+  width: 940px;
+  margin:0 auto;
+
+  .subir {
+    width: 34px;
+    height: 48px;
+    background: url(../img/Comun/fd_subir.png) 0 0 no-repeat;
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    top: 50%;
+    margin: -24px 0 0;
+
+    span {
+      display: none;
+    }
+  }
+
+  nav {
+    width: 118px;
+    height: 446px;
+    background: url(../img/Comun/fd_btn.png) 0 0 no-repeat;
+    position: fixed;
+    z-index: 10;
+
+    .btnGral {
+      padding: 231px 0 0;
+
+      li {
+        width: 113px;
+        text-align: center;
+        padding: 0 0 13px 0;
+
+        a {
+          font: normal 22px/22px AkzidenzGroteskBQCondensedBd;
+          text-transform: uppercase;
+          color: #828282;
+
+          &.Act {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Sections*/
+section {
+  .sectionCont {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
+
+/*Footer*/
+footer {
+  min-height: 260px;
+  overflow: hidden;
+  background: #ed475b url(../img/Mandriles/fd_mandriles.gif) 0 0 repeat;
+
+  .colList {
+    padding: 40px 0 0 118px;
+    width: 822px;
+    margin: 0 auto;
+    @include clearfix;
+
+    h2 {
+      font: italic 28px/28px Georgia, Helvetica, Arial;
+      color: #fff494;
+      padding: 14px 0 0;
+    }
+
+    .col {
+      float: left;
+      padding: 0 0 0 20px;
+      height: 181px;
+
+      &.colR {
+        width: 220px;
+
+        ul {
+          padding: 13px 0 0;
+
+          li {
+            width: 35px;
+            float: left;
+            padding: 0 10px 0 0;
+
+            a {
+              width: 35px;
+              height: 35px;
+              display: block;
+              padding: 0 10px 0 0;
+              background: url(../img/Comun/fd_enlaces.gif) 0 0 no-repeat;
+              @include opacity(0.9);
+
+              span {
+                display: none;
+              }
+
+              &:hover {
+                @include opacity(1);
+              }
+            }
+
+            &.enl1 {
+              a {
+                background-position: 0 0;
+              }
+            }
+
+            &.enl2 {
+              a {
+                background-position: 0 -70px;
+              }
+            }
+
+            &.enl3 {
+              a {
+                background-position: 0 -140px;
+              }
+            }
+          }
+        }
+      }
+
+      &.colL {
+        width: 562px;
+        @include clearfix;
+
+        .ftL {
+          float: left;
+          width: 285px;
+          padding: 0 0 0 10px;
+        }
+
+        .ftR {
+          float: left;
+          width: 227px;
+          background: #faee89;
+          padding: 0 20px 0;
+          position: relative;
+          @include box-shadow(3px 3px 1px #c34251);
+
+          .cvTwitter {
+            width: 71px;
+            height: 42px;
+            background: url(../img/Comun/fd_twitter.png) 0 0 no-repeat;
+            position: absolute;
+            top: 12px;
+            left: -71px;
+          }
+
+          p {
+            padding: 15px 0;
+            font: italic 11px/15px Georgia, Helvetica, Arial;
+            color: #828282;
+            background: url(../img/Comun/fd_liTwitter.gif) left bottom repeat-x;
+
+            a {
+              color: #ee4a5d;
+            }
+
+            &:last-child {
+              background: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .dowm {
+    width: 822px;
+    margin: 0 auto;
+    padding: 40px 0 10px;
+
+    small {
+      font: normal 12px/12px Georgia, Helvetica, Arial;
+      color: #fff494;
+      padding: 0 0 0 90px;
+      display: inline-block;
+    }
+  }
+}

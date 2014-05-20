@@ -1,0 +1,73 @@
+/*Talleres*/
+.sectionFour {
+  background: #fff url(../img/Talleres/fd_talleres.gif) 0 0 repeat;
+  position: relative;
+
+  .down {
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 6px;
+    background: url(../img/Talleres/fd_down.gif) 0 0 repeat-x;
+    z-index: 5;
+  }
+
+  .sectionCont {
+    padding: 140px 0 140px 118px;
+    width: 822px;
+
+    .colList {
+      @include clearfix;
+
+      .col {
+        width: 254px;
+        float: left;
+        padding: 0 0 0 20px;
+
+        header {
+          width: 230px;
+          height: 43px;
+          background: url(../img/Talleres/fd_title.png) 0 0 no-repeat;
+          padding: 9px 0 0 24px;
+
+          h2 {
+            font: italic 32px/32px Georgia, Helvetica, Arial;
+            color: #fff;
+          }
+        }
+
+        .colCont {
+          padding: 0 0 10px;
+
+          article {
+            background: url(../img/Talleres/fd_liArticle.gif) left bottom repeat-x;
+            padding: 18px 0 10px;
+
+            h3 {
+              font: bold 18px/18px Georgia, Helvetica, Arial;
+              font-style: italic;
+              color: #ee4a5d;
+            }
+
+            span {
+              font: normal 12px/12px Georgia, Helvetica, Arial;
+              color: #67caf9;
+              display: block;
+              padding: 6px 0 7px;
+            }
+
+            p {
+              font: normal 11px/13px Georgia, Helvetica, Arial;
+              color: #9d9d9d;
+            }
+
+            &:last-child {
+              background: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

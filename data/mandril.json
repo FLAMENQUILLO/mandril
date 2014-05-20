@@ -1,0 +1,540 @@
+{
+  "bar": {
+    "title": "Bar",
+    "img": "/_Reemplazable/bar.jpg",
+    "description": "En nuestro bar de lunes a viernes de 14:00 a 22:oohs, podés tomar y comer de nuestra comida caserita!",
+    "down": "Conocelo!"
+  },
+
+  "mandriles": {
+    "title": "Los Mandriles",
+    "description": "Teatro Mandril es un lugar que nos permite ser familia/compañeros/amigos y lo compartimos con quienes se acerquen. En este espacio autogestivo, hecho y sostenido con mucho esfuerzo somos creadores y colaboradores estimulándonos mutuamente, dandole lugar desde este espacio al arte, modificador social y personal.",
+    "img": "/_Reemplazable/fachada.jpg",
+    "team": [
+      {
+        "name": "Juantxi",
+        "img": "/_Reemplazable/mandriles/juantxi.jpg"
+      },
+      {
+        "name": "Santi",
+        "img": "/_Reemplazable/mandriles/santi.jpg"
+      },
+      {
+        "name": "Malena",
+        "img": "/_Reemplazable/mandriles/malena.jpg"
+      },
+      {
+        "name": "Pitu",
+        "img": "/_Reemplazable/mandriles/pitu.jpg"
+      },
+      {
+        "name": "Fede",
+        "img": "/_Reemplazable/mandriles/fede.jpg"
+      },
+      {
+        "name": "Flor",
+        "img": "/_Reemplazable/mandriles/florja.jpg"
+      },
+      {
+        "name": "Gina",
+        "img": "/_Reemplazable/mandriles/gina.jpg"
+      },
+      {
+        "name": "Agos",
+        "img": "/_Reemplazable/mandriles/agos.jpg"
+      },
+      {
+        "name": "Lau",
+        "img": "/_Reemplazable/mandriles/lau.jpg"
+      },
+      {
+        "name": "Cami",
+        "img": "/_Reemplazable/mandriles/cami.jpg"
+      },
+      {
+        "name": "Leo",
+        "img": "/_Reemplazable/mandriles/leo.jpg"
+      },
+      {
+        "name": "Shovi",
+        "img": "/_Reemplazable/mandriles/shovy.jpg"
+      },
+      {
+        "name": "Malen",
+        "img": "/_Reemplazable/mandriles/malen.jpg"
+      },
+      {
+        "name": "George",
+        "img": "/_Reemplazable/mandriles/george.jpg"
+      },
+      {
+        "name": "Chicho",
+        "img": "/_Reemplazable/mandriles/chicho.jpg"
+      }
+    ]
+  },
+  "events": {
+    "month": "Mayo",
+    "event": [
+      {
+        "_id": 1,
+        "highlight": true,
+        "title": "Una Noche en el castillo",
+        "img": "/_Reemplazable/eventos/castillo-site-galeria.jpg",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "El rey se muere y con el toda su corte, a menos que llegue algún valiente joven que sea capaz de inseminar a la diáfana y virginal doncella... Hermosas ninfas, la menopáusica reina, un joribado inescrupuloso e histriónicos invitados condimentan la atmósfera de este singular espectáculo.",
+        "date": "domingos de Mayo",
+        "time": "19:30hs",
+        "cost": "A la gorra"
+      },
+      {
+        "_id": 2,
+        "highlight": false,
+        "title": "Paraguas",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 3,
+        "highlight": false,
+        "title": "Una Noche en es Castillo",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 4,
+        "highlight": false,
+        "title": "Swing",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 5,
+        "highlight": false,
+        "title": "Milonga",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 6,
+        "highlight": false,
+        "title": "Cooperactiva",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 7,
+        "highlight": false,
+        "title": "Cada 3er sábado de cada mes hay variete!",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 8,
+        "highlight": false,
+        "title": "Paraguas",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 9,
+        "highlight": false,
+        "title": "Una Noche en es Castillo",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 10,
+        "highlight": false,
+        "title": "Swing",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 11,
+        "highlight": false,
+        "title": "Milonga",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      },
+      {
+        "_id": 12,
+        "highlight": false,
+        "title": "Cooperactiva",
+        "img": "http://placekitten.com/g/542/300",
+        "thumbnail": "http://placekitten.com/g/158/101",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+        "date": "8 y 15 de Mayo",
+        "time": "14:00 a 22:00hs",
+        "cost": "Libre y gratuita"
+      }
+    ]
+  },
+  "talleres": {
+    "lunes": [
+      {
+        "title": "Trapecio",
+        "description": "Todos los niveles.",
+        "time": "11:00 a 13:30hs",
+        "teacher": "Eloy"
+      },
+      {
+        "title": "Cintas",
+        "description": "Todos los niveles.",
+        "time": "15:00 a 17:00hs",
+        "teacher": "Cristian Lopez"
+      },
+      {
+        "title": "Palo chino / Mastil",
+        "description": "Todos los niveles.",
+        "time": "16:00 a 18:00hs",
+        "teacher": "Manolo Jaime"
+      },
+      {
+        "title": "Elongación",
+        "description": "Todos los niveles.",
+        "time": "16:00 a 18:00hs",
+        "teacher": "Primavera"
+      },
+      {
+        "title": "Folklore",
+        "description": "Para adultos mayores, taller gratuito.",
+        "time": "18:00 a 20:00hs",
+        "teacher": "Sheila Loy"
+      },
+      {
+        "title": "Aro y Tela",
+        "description": "Todos los niveles.",
+        "time": "18:00 a 20:30hs",
+        "teacher": "Gina"
+      },
+      {
+        "title": "Capoeira",
+        "description": "Todos los niveles.",
+        "time": "20:00 a 21:30hs",
+        "teacher": "Ale Fuentes"
+      },
+      {
+        "title": "Acrobacia de piso",
+        "description": "Todos los niveles.",
+        "time": "20:30 a 22:30hs",
+        "teacher": "Gabi Parigi y Mati Plaul"
+      }
+    ],
+    "martes": [
+      {
+        "title": "Aro y Tela",
+        "description": "Todos los niveles.",
+        "time": "11:00 a 13:30hs",
+        "teacher": "Gina"
+      },
+      {
+        "title": "Cuerda",
+        "description": "Todos los niveles.",
+        "time": "13:00 a 15:30hs",
+        "teacher": "Iliana Pastorino"
+      },
+      {
+        "title": "Pintura para niños",
+        "description": "Taller de pintura para niños.",
+        "time": "17:00 a 18:30hs",
+        "teacher": "Brenda Cap"
+      },
+      {
+        "title": "Tango",
+        "description": "Para adultos mayores, taller gratuito.",
+        "time": "17:00 a 19:00hs",
+        "teacher": "Rocio y Bruno"
+      },
+      {
+        "title": "Pintura para niños",
+        "description": "Taller de pintura para niños.",
+        "time": "18:30 a 20:30hs",
+        "teacher": "Brenda Cap"
+      },
+      {
+        "title": "Afro",
+        "description": "Baile afro, todos los niveles.",
+        "time": "19:00 a 21:00hs",
+        "teacher": "Abdulay"
+      },
+      {
+        "title": "Tango",
+        "description": "Intermedios a avanzados.",
+        "time": "21:00 a 23:00hs",
+        "teacher": "Rocio y Bruno"
+      }
+    ],
+    "miercoles": [
+      {
+        "title": "Guerreros Escénicos",
+        "description": "Entrenamiento, exploración y composición.",
+        "time": "10:30 a 12:30hs",
+        "teacher": "Emiliano Larea"
+      },
+      {
+        "title": "Trapecio",
+        "description": "Todos los niveles.",
+        "time": "11:00 a 13:30hs",
+        "teacher": "Eloy"
+      },
+      {
+        "title": "Cintas",
+        "description": "Todos los niveles.",
+        "time": "15:00 a 17:00hs",
+        "teacher": "Cristian Lopez"
+      },
+      {
+        "title": "Palo chino / Mastil",
+        "description": "Todos los niveles.",
+        "time": "16:00 a 18:00hs",
+        "teacher": "Manolo Jaime"
+      },
+      {
+        "title": "Aro y Tela",
+        "description": "Todos los niveles.",
+        "time": "18:00 a 20:30hs",
+        "teacher": "Gina"
+      },
+      {
+        "title": "Capoeira",
+        "description": "Todos los niveles.",
+        "time": "20:00 a 21:30hs",
+        "teacher": "Ale Fuentes"
+      },
+      {
+        "title": "Acrobacia de piso",
+        "description": "Todos los niveles.",
+        "time": "20:30 a 22:30hs",
+        "teacher": "Gabi Parigi y Mati Plaul"
+      },
+      {
+        "title": "Tango",
+        "description": "Todos los niveles. Pos clase milonga 'La Mandrilera'.",
+        "time": "21:00 a 23:00hs",
+        "teacher": "Naty y Chino"
+      }
+    ],
+    "jueves": [
+      {
+        "title": "Aro y Tela",
+        "description": "Todos los niveles.",
+        "time": "11:00 a 13:30hs",
+        "teacher": "Gina"
+      },
+      {
+        "title": "Cuerda",
+        "description": "Todos los niveles.",
+        "time": "13:00 a 15:30hs",
+        "teacher": "Iliana Pastorino"
+      },
+      {
+        "title": "Hip Hop",
+        "description": "Clases de Hip Hop Urbano, nivel principiante a intermedio.",
+        "time": "17:00 a 18:30hs",
+        "teacher": "Vane"
+      },
+      {
+        "title": "Pintura",
+        "description": "Clases de pintura, varios estilos .",
+        "time": "18:00 a 20:30hs",
+        "teacher": "Matias Cremades"
+      }
+    ],
+    "viernes": [
+      {
+        "title": "Guerreros Escénicos",
+        "description": "Entrenamiento, exploración y composición.",
+        "time": "10:30 a 12:30hs",
+        "teacher": "Emiliano Larea"
+      },
+      {
+        "title": "Trapecio",
+        "description": "Todos los niveles.",
+        "time": "11:00 a 13:30hs",
+        "teacher": "Eloy"
+      },
+      {
+        "title": "Elongación",
+        "description": "Todos los niveles.",
+        "time": "16:00 a 18:00hs",
+        "teacher": "Primavera"
+      },
+      {
+        "title": "Swing",
+        "description": "Clases de Swing, todos los niveles. Pos clase tandas de swing.",
+        "time": "23:00 a 24:00hs",
+        "teacher": "Claudia y Ernesto"
+      }
+    ],
+    "sabado": [
+      {
+        "title": "Tela y aro",
+        "description": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt.",
+        "time": "11:00 a 13:00hs",
+        "teacher": "Gina"
+      }
+    ]
+  },
+  "galeries": [
+    {
+      "date": "20 de septiembre 2014",
+      "title": "3er frente",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+      "mainThumbnail": "http://placekitten.com/g/158/101",
+      "images": [
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/358",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/356",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        }
+      ]
+    },
+    {
+      "date": "20 de diciembre 2014",
+      "title": "Paraguas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+      "mainThumbnail": "http://placekitten.com/g/158/101",
+      "images": [
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/101/69",
+          "thumbnail": "http://placekitten.com/g/101/69"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        }
+      ]
+    },
+    {
+      "date": "10 de diciembre 2014",
+      "title": "Swing",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales porttitor sollicitudin. Morbi vitae turpis ut felis ultrices tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eu arcu risus, et condimentum elit. Sed rhoncus lobortis tortor at pellentesque.",
+      "mainThumbnail": "http://placekitten.com/g/158/101",
+      "images": [
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/101/69",
+          "thumbnail": "http://placekitten.com/g/101/69"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        },
+        {
+          "title": "title",
+          "img": "http://placekitten.com/527/357",
+          "thumbnail": "http://placekitten.com/g/101/68"
+        }
+      ]
+    }
+  ]
+}

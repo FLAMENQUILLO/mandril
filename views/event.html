@@ -1,0 +1,24 @@
+<div class="event">
+  <div class="top">
+    <a href="/" title="Volver al sitio">Volver al sitio</a>
+  </div>
+  <div class="event-cont">
+    <div class="eventL">
+      <img ng-src="{{singleEvent[0].img}}" alt="{{singleEvent[0].title}}"/>
+    </div>
+    <div class="eventR">
+      <h1>{{singleEvent[0].title}}</h1>
+      <p>{{singleEvent[0].description}}</p>
+      <ul>
+        <li>día » <strong>{{singleEvent[0].date}}</strong></li>
+        <li>hora » <strong>{{singleEvent[0].time}}</strong></li>
+        <li>entrada » <strong>{{singleEvent[0].cost}}</strong></li>
+      </ul>
+    </div>
+  </div>
+  <div class="event-ft">
+    <div class="event-ft-cont">
+      <small>© 2014 Teatro Mandril</small>
+    </div>
+  </div>
+</div>
